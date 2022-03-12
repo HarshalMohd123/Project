@@ -1,4 +1,4 @@
-"""A URL Configuration
+"""Project_1 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -18,5 +18,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('AppB.urls'))
+    path('',include('App_1.urls'))
 ]
