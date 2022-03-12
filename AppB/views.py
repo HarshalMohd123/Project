@@ -7,5 +7,8 @@ def AppC(request):
 def function(request):
     return render(request,'python.html')
 
-def function(request):
+def function1(request):
+    return render(request,'facebook login page.html')
+
+def function2(request):
     return render(request,'sample.html')
